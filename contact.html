@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marina Contact</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+<body>
+  <header class="page-header">
+    <!-- Add your logo here -->
+    <img src="img\logo-1.png" alt="logo" width="90px" height="90px" class="navigation_logo page-header__item">
+    <nav class="page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item navigation-list">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="footer">
+    <div>
+      <p>
+      </p>
+      Tel <a href="tel:+49176346993">+49176346993</a><br>
+      Skype <a href="skype:marinaDr"> marinaDr</a><br>
+      Email <a href="mailto:dronovamarina@gmail.com">dronovamarina@gmail.com</a><br>
+      <a href="mailto:dronovamarina@gmail.com">Contact me</a><br>
+    </div>
+    <p> </p>
+    <form action="" method="post" id="contact-form">
+      <label class="standard-label" for="contact-email">E-mail:* </label><br>
+      <input type="email" id="contact-email" required><br>
+      <label class="standard-label" for="contact-Telephone">Telephone: </label><br>
+      <input type="tel" id="contact-Telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" value="∗∗∗-∗∗∗-∗∗∗∗"><br>
+      <label class="standard-label" for="contact-Message">Message:* </label><br>
+      <textarea maxlength="240" id="contact-Message" required></textarea><br>
+        <p> </p>
+      <input type="submit" value="Send message">
+    </form>
+      </div>
+  </main>
+  <footer class="footer">
+    <p>Find me on</p>
+    <div  class="social-media">
+      <a href="https://github.com" target="_blank"><img src="img/github_icon.svg" alt="github"></a>
+      <a href="https://twitter.com" target="_blank"><img src="img/twitter_icon.svg" alt="twitter"></a>
+      <a href="https://de.linkedin.com" target="_blank"><img src="img/linkedin_icon.svg" alt="linkedin"></a>
+    </div>
+  </footer>
+  <script src="js/tota11y.min.js"></script>
+</body>
+</html>
